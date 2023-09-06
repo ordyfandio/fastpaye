@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+}
+.icon{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+}
+li{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    justify-content: space-around;
+    border-top: 1px solid #333333bd;
+}
+
+/* Forward Section */
+.divbar{
+    width: 100%;
+    border-bottom: 1px solid #333333bd;
+    padding: 12px;
+    /* position: fixed; */
+    box-shadow: 2px 3px 10px 1px ;
+    z-index: 1000;
+}
+.forward{
+    border: 0;
+    text-decoration: none;
+    color: blueviolet;
+}
+.balance{
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.522);
+    color: blueviolet;
+    background-color: #fff;
+    padding: 8px;
+    margin-left: 250px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.div_form{
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+}
+form{
+    display: inline-block;
+    max-width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+form>input{
+    margin-top: 20px;
+}
+input{
+    padding: 12px;
+    width: 250px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 2px solid rgb(137, 43, 226);
+}
+.icon_user{
+    font-size: 1.5em;
+    position: absolute;
+    left: 255px;
+    top: 155px;
+    color: rgb(137, 43, 226);
+}
+.check{
+    margin-left: -110px;
+    padding: 8px;
+    font-size: 1.5em;
+}
+label{
+    margin-left: -90px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 28px;
+    margin-left: 15px;
+    padding: 8px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    width: 150px;
+    border: 3px;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.322);
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgb(137, 43, 226);
+    transition: all .5s ease-in-out;
+}
+
+
+/* Favorite section */
+.div_btn{
+    width: 100%;
+    height: 80vh;
+}
+.form_favorite{
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+    display: none;
+}
+.open_favorite{
+    display: block;
+    width: 100%;
+    padding: 50px;
+}
+.plus{
+    position: absolute;
+    top: 390px;
+    left: 320px;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: rgb(137, 43, 226);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    border: 0;
+    font-size: 1.3em;
+    color: #fff;
+}
+h2{
+   position: absolute;
+   top: 150px;
+   left: 50px;
+}
+.form{
+    margin-top: -850px;
+    margin-left: 35px;
+}
+.icon_name{
+    font-size: 1.5em;
+    position: absolute;
+    left: 255px;
+    top: 300px;
+    color: rgb(137, 43, 226);
+}
+.icon_phone{
+    font-size: 1.5em;
+    position: absolute;
+    left: 255px;
+    top: 370px;
+    color: rgb(137, 43, 226);
+}
+
+/*Scanner Section  */
+
+.div_msg{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    height: 80vh;
+    margin-top: 50px;
+}
+h1{
+    font-size: 1.5em;
+}
+p{
+    margin-top: 12px;
+    font-size: 1.5em;
+    width: 100%;
+}
+.ok,.cancel{
+    margin-top: 12px;
+    width: 100px;
+    padding: 8px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+}
+.cancel{
+    margin-left: 12px;
+    background-color: rgba(128, 128, 128, 0.733); 
+    color: #fff;
+}
+.cancel:hover{
+    background-color: rgb(128, 128, 128); 
+    color: #fff;
+}
+.ok{
+    background-color: rgba(137, 43, 226, 0.644); 
+    color: #fff;
+}
+.ok:hover{
+    background-color: rgb(137, 43, 226);
+}
