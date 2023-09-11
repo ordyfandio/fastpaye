@@ -7,12 +7,16 @@ import Bar from "./bar";
 import Receive from "./Receive";
 import Scanner from "./Scanner";
 import Profile from "./Profile";
+import Balance from "./Balance";
 
 function App() {
   return (
     <div className="App">
         <Router>
           <Bar/>
+          <Route path="/Balance">
+            <Balance/>
+          </Route>
           <Route path="/Forward">
             <Forward/>
           </Route>

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (max-width: 1120px){
 .navbar{
     width: 100%;
 }
@@ -86,12 +87,16 @@ input{
     color: rgb(137, 43, 226);
 }
 .check{
-    margin-left: -110px;
+    position: absolute;
+    bottom: 190px;
+    left: -50px;
     padding: 8px;
     font-size: 1.5em;
 }
+span{
+    margin-left: 50px;
+}
 label{
-    margin-left: -90px;
     font-weight: bold;
 }
 .btn{
@@ -216,4 +221,5 @@ p{
 }
 .ok:hover{
     background-color: rgb(137, 43, 226);
+}
 }
