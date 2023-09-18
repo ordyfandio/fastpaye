@@ -178,48 +178,6 @@ h2{
     color: rgb(137, 43, 226);
 }
 
-/*Scanner Section  */
 
-.div_msg{
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    padding: 12px;
-    height: 80vh;
-    margin-top: 50px;
-}
-h1{
-    font-size: 1.5em;
-}
-p{
-    margin-top: 12px;
-    font-size: 1.5em;
-    width: 100%;
-}
-.ok,.cancel{
-    margin-top: 12px;
-    width: 100px;
-    padding: 8px;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
-    cursor: pointer;
-}
-.cancel{
-    margin-left: 12px;
-    background-color: rgba(128, 128, 128, 0.733); 
-    color: #fff;
-}
-.cancel:hover{
-    background-color: rgb(128, 128, 128); 
-    color: #fff;
-}
-.ok{
-    background-color: rgba(137, 43, 226, 0.644); 
-    color: #fff;
-}
-.ok:hover{
-    background-color: rgb(137, 43, 226);
-}
+
 }

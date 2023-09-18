@@ -12,7 +12,7 @@ const Favorite = () => {
                 <button className="plus" onClick={showForm}>+</button>
             </div>
             <div className={form? 'open_form':'form_favorite'}>
-                <h2 style={{}}>Add a favorite contact</h2>
+                <h2>Add a favorite contact</h2>
                 <form className="form">
                     <FaUser className="icon_name"/> <input type="text" placeholder="Name"  required/> 
                     <FaPhone className="icon_phone"/> <input type="number" placeholder="Phone number" required/><br/>
