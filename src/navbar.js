@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="menu">
                 <Link to="/Forward"><FaQrcode className="icon"/><br/> Forward</Link>
                 <Link to="/Favorite"><FaUserGroup className="icon"/><br/> Favorite</Link>
-                <Link to="/Receive"><FaQrcode className="icon"/><br/> Receive</Link>
+                <Link to="/Withdraw"><FaQrcode className="icon"/><br/> Withdraw</Link>
                 <Link to="/Profile"><FaRegUser className="icon"/><br/>Profile</Link>
             </div>
          </nav>

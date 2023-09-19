@@ -178,6 +178,11 @@ h2{
     color: rgb(137, 43, 226);
 }
 
-
+.blog-preview{
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    
+}
 
 }

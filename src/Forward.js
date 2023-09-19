@@ -17,6 +17,9 @@ const Forward = () => {
             if (err) return console.error(err);
             setQrcode(amount);
         })
+
+        setPhone('');
+        setAmount('');
     }
 
     const handleSubmit=(e)=>{
@@ -35,10 +38,6 @@ const Forward = () => {
          console.log('New ELement added');
          setIsPending(false);
         })
-
-        
-        setPhone('');
-        setAmount('');
     }
 
 

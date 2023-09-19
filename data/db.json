@@ -4,6 +4,54 @@
       "phone": "677801562",
       "amount": "1000",
       "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "phone": "678915697",
+      "id": 3
+    },
+    {
+      "phone": "678915697",
+      "amount": "500",
+      "id": 4
+    },
+    {
+      "phone": "",
+      "amount": "",
+      "id": 5
+    },
+    {
+      "phone": "",
+      "amount": "",
+      "id": 6
+    }
+  ],
+  "personal": [
+    {
+      "phone": "677142536",
+      "name": "ordy",
+      "id": 1
+    },
+    {
+      "phone": "68915697",
+      "name": "cruel",
+      "id": 2
+    }
+  ],
+  "withdraw":[
+    {
+      "payeeNote": "Fastpay",
+      "externalId": "1234",
+      "amount": "500",
+      "currency": "XOF",
+      "payer": {
+        "partyIdType": "MSISDN",
+        "partyId": "237678915697"
+      },
+      "payerMessage": "Are you sure you want to withdraw?"
     }
   ]
+
 }
